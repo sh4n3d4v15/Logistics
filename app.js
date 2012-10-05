@@ -13,8 +13,8 @@ var express = require('express')
 
  
 
-mongoose.connect("mongodb://localhost/legs",function(err){
-//mongoose.connect("mongodb://shane:evaporated@staff.mongohq.com:10008/plannable",function(err){
+//mongoose.connect("mongodb://localhost/legs",function(err){
+mongoose.connect("mongodb://shane:evaporated@staff.mongohq.com:10008/plannable",function(err){
 if(err){
 console.log(err)
 }else{
