@@ -1,0 +1,64 @@
+body {
+	color:rgba(27,163,152,1);
+	font-family: “Myriad Pro”, Arial, Helvetica, Tahoma, sans-serif;
+	background-image: url('/img/tasky_pattern.png');
+}
+#features{
+	position: absolute;
+	top:30px;
+	left:50px;
+	width:1210px;
+	float:left;
+	z-index: 999;
+}
+.live_tile{
+	font-size: 12px;
+	border-radius:1px;
+	background-color: rgba(0,0,0,.7);
+	margin:5px;
+	padding:10px;
+	height: 110px;
+	border:1px solid rgba(0,0,0,1);
+	box-shadow: -2px -2px 3px rgba(27,163,152,.1),2px 2px 3px rgba(27,163,152,.1);;
+}
+.1red{
+	color: rgba(255,0,0,0.4);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+
+}
+.1success{
+	color: rgba(0,100,0,0.5);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.6);
+}
+.1amber{
+	color: rgba(255,100,0,0.7);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.8);
+}
+.editing{
+	color: rgba(255,255,255,.8)
+}
+
+.box {
+	text-shadow: 2px 0 0 black;
+
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+.inner{
+}
+#map { 
+	height: 73em;
+	width:1275px;
+	border:1px solid rgba(0,0,0,1);
+	box-shadow: -2px -2px 3px rgba(255,255,255,0.2),2px 2px 3px rgba(255,255,255,.2);
+}
+.leaflet-control-container{
+	display: none;
+}
+.tile_icon{
+	width:32px;
+}
+
