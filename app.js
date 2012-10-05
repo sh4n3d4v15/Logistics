@@ -2,8 +2,8 @@ var express = require('express')
   , routes = require('./routes')
   , http = require('http')
   , path = require('path')
-  , mongoose = require('mongoose') 
-  , Schema = mongoose.Schema
+  // , mongoose = require('mongoose') 
+  // , Schema = mongoose.Schema
   , BB = require('backbone')
   , Todo = require('./public/js/models/todo')
   , fs = require('fs');
@@ -13,22 +13,22 @@ var express = require('express')
 
  
 
-//mongoose.connect("mongodb://localhost/legs",function(err){
-mongoose.connect("mongodb://shane:evaporated@staff.mongohq.com:10008/plannable",function(err){
-if(err){
-console.log(err)
-}else{
-console.log('connected to database baby!')
-}
-});
-// Configuration
-var Layout_Schema = new Schema({
-  heading: String,
-  text: String,
-  width: Number,
-  color: String,
-  img: String
-})
+//git mongoose.connect("mongodb://localhost/legs",function(err){
+// mongoose.connect("mongodb://shane:evaporated@staff.mongohq.com:10008/plannable",function(err){
+// if(err){
+// console.log(err)
+// }else{
+// console.log('connected to database baby!')
+// }
+// });
+// // Configuration
+// var Layout_Schema = new Schema({
+//   heading: String,
+//   text: String,
+//   width: Number,
+//   color: String,
+//   img: String
+// })
 
 var Layout_Model = mongoose.model('Layout',Layout_Schema)
 
