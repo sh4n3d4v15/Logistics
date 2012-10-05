@@ -6,7 +6,7 @@ var express = require('express')
   , Schema = mongoose.Schema
   , BB = require('backbone')
   , Todo = require('./public/js/models/todo')
-  , fs = require('fs')
+  , fs = require('fs');
   // , jobs = fs.readFileSync('data/jobs.txt', 'utf-8'),
   //   jJobs = JSON.parse(jobs);
 
