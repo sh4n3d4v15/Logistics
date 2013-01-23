@@ -10,6 +10,7 @@ define(['backbone','models/todo'] , function( Backbone , TodoModel ){
 
 		initialize: function(){
 		},
+
 		parse: function( data ){
 			return data;
 		}

@@ -17,10 +17,44 @@ require.config({
 	}
 })
 
-require(['views/app','bootstrap','leaflet/map'] , function(AppView , Booststrap , Leaflet){
-	
-	
+require(['views/app','bootstrap','backbone','collections/todos'] , function(AppView , Booststrap , Backbone, collection){
+
+	// console.log(Backbone)
+		var AppRouter = Backbone.Router.extend({
+		routes: {
+			"" : "showMessage"
+		},
+
+		showMessage : function(){
+			console.log("show message pressed")
+		}
+	});
+
+
+	 
+
+	$(function(){
+		var socket = io.connect();
+
+		socket.on('completeJob' , function(data){
+			appView.complete(data);
+		})
+		var appRouter = new AppRouter();
+		console.log(appRouter)
+		Backbone.history.start();
+	})
+
+	$('.leanbutton').on('click' , function(){
+		window.location = '/liveloads'
+	})
+
+	$('#searchButton').on('click' , function(){
+		
+		appView.complete(3617419688)
+	})
+
 	window.appView = new AppView();
+
 })
 
 

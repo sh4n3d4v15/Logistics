@@ -1,0 +1,1233 @@
+/*-------------------- Lean CSS --------------------/
+/** Set Default font once and forget **/
+body,
+button,
+input,
+select,
+textarea,
+a,a:visited {
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+/** Links **/
+a.pageheaderlink, a.resultheaderlink, a.searchcriterialink{
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.actionbar{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+.actionheaders{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+.calendarmonthheader{
+  background: #c3cfdb;
+  border-right: 1px solid #C3D7E7;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.configurelabel{
+  background: #c3cfdb;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: top;
+  text-align: right;
+}
+
+.consoleheaders{
+  background: #d7e4ff;
+  font-size: 13px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+.dataentrysmalltext {
+  border: #CCCC99;
+  border-collapse: collapse;
+  font-size: 10px;
+  padding: 2px;
+}
+
+.datainputtablerow{
+  background-color: #FFFFFF;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.disallowedstatus{
+    color: #cc0000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hmenu3 {
+    font-weight:normal;
+    font-family:Arial;
+    font-size:11px;
+    color:#6D6656;
+}
+
+.headerforbatch {
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: Bold;
+  vertical-align: bottom;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.reporttable {
+  border: 1px solid #ece8e0
+}
+
+td.reporttable {
+  background: #FFFFFF;
+  font-size: 10px;
+  font-weight: Normal;
+}
+
+.loadreportbody{
+  background: #FFFFFF;
+  font-size: 11px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.loadreportbody1, .loadreportbody2 {
+  background: #FFFFFF;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.loadreportbody2{
+  border-right: #FFCC99;
+}
+
+.loadreportbodylink{
+  background: #FFFFFF;
+  font-size: 10px;
+  vertical-align: top;
+}
+
+.loadreportbodylink2{
+  font-size: 10px;
+  font-style: normal;
+  vertical-align: top;
+}
+
+.loadreportbodylink3{
+  font-size: 10px;
+  font-style: normal;
+  vertical-align: middle;
+}
+
+.loadreportdrop{
+  background: #FFCC99;
+  border-right: 1px solid #FFCC99;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.loadreportheader{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: Bold;
+  vertical-align: top;
+}
+
+.loadreportheader1{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: Bold;
+  vertical-align: top;
+}
+
+.loadreportheaderlink{
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.loadreportheadernoback{
+  background: #FFFFFF;
+  font-size: 11px;
+  font-weight: Normal;
+  vertical-align: top;
+}
+
+.loadreportnote{
+  background: #FFFFFF;
+  font-size: 11px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.loadreportpick{
+  background: #C3D7E7;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.loadreportwaypoint{
+  background: #C8FFC8;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.loadreportrail{
+  background: #68CA86;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.loadreportsubhead{
+  background: #FFFFFF;
+  font-size: 11px;
+  font-weight: Bold;
+  vertical-align: top;
+}
+
+.loadreportsubhead2{
+  background: #D7E4FF;
+  font-size: 11px;
+  font-weight: Bold;
+  vertical-align: top;
+}
+
+.loadreporttop{
+  background: #ece8e0;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: Bold;
+  vertical-align: top;
+}
+
+.loadreporttop1{
+  background: #ece8e0;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.loadreporttop2{
+  background: #FFFFFF;
+  font-size: 11px;
+  font-weight: Normal;
+  vertical-align: top;
+}
+
+.modified{
+    color: #cc0000;
+    width: 50px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.notificationheader{
+  background: #c3cfdb;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.notificationlink{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.offerstatus{
+    color: #cc0000;
+    width: 100px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pageheader{
+  background-color: #ece8e0;
+  color: #003399;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: Bold;
+  text-align: left;
+}
+
+.pagestatus{
+  background: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.pagestatuslink{
+    font-size: 12px;
+    text-decoration:none;
+}
+
+.pagestatussuccess{
+  color: #009900;
+  font-size: 12px;
+  font-weight: Normal;
+  vertical-align: top;
+}
+
+.pagestatuswarn{
+  color: #990000;
+  font-size: 12px;
+  font-weight: Normal;
+  vertical-align: top;
+}
+
+/* Only used one place ShowRateShopResults */
+.preferredstatus{
+    color: #007000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.priorityLevel {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.ratedetailheader {
+  background: #c3cfdb;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.ratedetailstops {
+  background: #FFFFFF;
+  font-size: 11px;
+  font-style: Normal;
+  font-weight: Normal;
+}
+
+.ratedetailstopsbody {
+  background: #FFFFFF;
+  font-size: 11px;
+}
+
+.rateshopbody {
+  background: #FFFFFF;
+  font-size: 10px;
+}
+
+.rateshopbodyheader {
+  background: #FFFFFF;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.rateshopheader {
+  background: #FFFFFF;
+  border: 1px #CCCC99;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.rateshopresults {
+  background: #FFFFFF;
+  border: 1px solid #c3cfdb;
+  font-size: 10px;
+  font-weight: normal;
+  padding: 2px;
+}
+
+.rateshopruler {
+  background: #c3cfdb;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+}
+
+.requiredasterisk{
+  color: #BB0000;
+  font-weight: Normal;
+  vertical-align: top;
+}
+
+.conditionalasterisk{
+  color: #0000BB;
+  font-weight: Normal;
+  vertical-align: top;
+}
+
+.resultheaders{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+.resultsubheaders{
+  background: #d7e4ff;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+.resultheadersmiddle{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.resultheaderslink{
+  background: #c3cfdb;
+  font-size: 11px;
+}
+
+.resulttable {
+  border: 1px solid #c3cfdb
+}
+
+td.resultrow1border {
+  border: 1px solid #c3cfdb;
+  background: #FFFFFF;
+  font-size: 10px;
+  font-weight: Normal; /* vertical-align: top; */
+}
+
+.resultheaders1{
+  background: #c3cfdb;
+  font-size: 11px;
+  vertical-align: bottom;
+}
+
+.resultrow1, .resultrow2, .resultrowalert, .resultrowdelayed, .resultrowhighlight, .resultrowsuccess, .resultrowwarn, .errorrow  {
+  font-size: 10px;
+  font-weight: Normal;
+}
+
+.resultrow1 {
+  background: #d7e4ff;
+}
+
+.resultrow2 {
+  background: #FFFFFF;
+}
+
+.rulesresultlink{
+  font-size: 10px;
+}
+
+.rulesresultrow1{
+  background: #d7e4ff;
+  font-size: 11px;
+}
+
+.rulesresultrow2{
+  background: #FFFFFF;
+  font-size: 11px;
+}
+
+.errorrow {
+  background: #CC3333;
+}
+
+.resultrowalert {
+  background: #FF6C6C;
+  vertical-align: top;
+}
+
+.resultrowdelayed {
+  background: #FFCCCC;
+}
+
+.resultrowhighlight {
+  background: #f5ffc2;
+}
+
+.resultrowsuccess {
+  background: #009900;
+  vertical-align: top;
+}
+
+.resultrowwarn{
+  background: #FFFFA8;
+  vertical-align: top;
+}
+
+.resultrowhead1, .resultrowhead2 {
+  font-size: 11px;
+  font-weight: Bold; /* vertical-align: top; */
+}
+
+.resultrowhead1 {
+  background: #d7e4ff;
+}
+
+.resultrowhead2 {
+  background: #FFFFFF;
+}
+
+.rowstatussuccess{
+  color: #009900;
+  font-size: 10px;
+  font-weight: Normal;
+}
+
+.rowstatussuccess2{
+  color: #009900;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.rowstatuswarn{
+  color: #990000;
+  font-size: 10px;
+  font-weight: Normal;
+}
+
+.rowstatuswarn2{
+  color: #990000;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.rulesheaders{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: Bold;
+}
+
+.rulesheaderslink{
+  font-size: 10px;
+}
+
+.rulessubhead{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: Bold;
+}
+
+.rulestop{
+  background-color: #c3cfdb;
+  font-size: 12px;
+  font-weight: Bold;
+}
+
+.rulestoplink{
+  font-size: 11px;
+}
+
+.searchasterisk{
+  color: #DD0000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.searchcriteria {
+  background: #ece8e0;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.searchcriteriasubhdr {
+  background: #ece8e0;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.searchcriterialink {
+  background-color: #ece8e0;
+  font-size: 11px;
+  font-weight: Normal;
+}
+
+.searchforbatch {
+  font-size: 10px;
+  font-weight: Normal;
+  vertical-align: top;
+}
+
+.searchheader {
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: Bold;
+  vertical-align: top;
+}
+
+.searchheaderaction {
+  background: #FFFFFF;
+  font-size: 12px;
+  font-weight: Normal;
+  vertical-align: top;
+}
+
+.searchselectbox {
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: Bold;
+  vertical-align: bottom;
+}
+
+.sectionheader{
+  background: #c3cfdb;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sectionlink{
+  background: #FFFFFF;
+  font-size: 11px;
+  font-weight: Normal;
+}
+
+.shipmentheader{
+  background: #808080;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.shipmentheader{
+  background: #ece8e0;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: Bold;
+  vertical-align: top;
+}
+
+.shipmentlabel{
+  background: #c3cfdb;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.shown {
+  visibility: visible;
+}
+
+.hiderow {
+  display: none;
+}
+
+.showrow {
+  display: table-row;
+}
+
+.showcell {
+  display: table-cell;
+}
+
+.simpleboldfont {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.simplelargefont {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.smallbutton {
+  font-size: 9px;
+}
+
+.statusmessage{
+  background-color: #ece8e0;
+  color: #003399;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: Bold;
+  text-align: left;
+}
+
+.statusmessagelink, .statusmessagelinknostyle{
+  background-color: #ece8e0;
+  font-size: 11px;
+  font-weight: Normal;
+  text-align: right;
+}
+
+.statusmessagelinknostyle{
+  font-style: normal;
+}
+
+.summaryheader{
+  background: #c3cfdb;
+  font-size: 14px;
+  font-weight: Normal;
+}
+
+.summaryresult{
+  font-size: 12px;
+  font-weight: Normal;
+}
+
+.tabledatageneric{
+  background: #FFFFFF;
+  font-size: 10px;
+  text-align: center;
+}
+
+.tableheaderdark{
+  background: #FFFFFF;
+  font-size: 12px;
+  font-weight: Normal;
+  text-align: center;
+}
+
+.ttresultheader{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: Bold;
+}
+
+.ttresultrow1{
+  background: #d7e4ff;
+  font-size: 10px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.ttresultrow11{
+  background: #FFFFFF;
+  font-size: 10px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.ttresultrow12{
+  background: #d7e4ff;
+  font-size: 10px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.ttresultrow2{
+  background: #FFFFFF;
+  font-size: 10px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.ttresultrow21{
+  background: #d7e4ff;
+  font-size: 10px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.ttresultrow22{
+  background: #FFFFFF;
+  font-size: 10px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.ttresultsubheaderdark1{
+  background: #ece8e0;
+  font-size: 10px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.ttresultsubheaderdark2{
+  background: #ece8e0;
+  font-size: 10px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.ttresultsubheaderlt1{
+  background: #c3cfdb;
+  font-size: 10px;
+}
+
+.ttresultsubheaderlt2{
+  background: #c3cfdb;
+  font-size: 10px;
+}
+
+.ttsearch{
+  background: #ece8e0;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.greentext {
+  color: #007000;
+}
+
+#searchImg {
+    cursor:pointer;
+}
+
+.hand {
+    cursor:pointer;
+}
+
+.nobreak {
+    white-space: nowrap;
+}
+
+.button {
+    clear:both;
+}
+.button select {
+    float:left;
+    margin-right: 3px;
+}
+
+.button a {
+    float:left;
+    width:60px;
+    padding: 1px;
+    margin: 1px;
+    text-align:center;
+    background-color: #eeeeee;
+    border: 1px solid black;
+    text-decoration:none;
+    font-size: 11px;
+    color: black;
+}
+
+.button a:hover {
+    background-color: white;
+}
+
+.button span {
+    float:left;
+    padding: 3px;
+}
+
+.orderreportheader
+{
+    color: #ffffff;
+    background-color: #6666CC;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.orderreportpick {
+    background: #d7e4ff;
+    font-size: 11px;
+    vertical-align: top;
+}
+
+.buttondisabled {
+    font-weight:normal;
+    color:#CCCCCC;
+    font-size:11px;
+}
+
+/**
+ * The auto_complete box styling
+ */
+div.auto_complete {
+    background: #ffffff;
+}
+
+div.auto_complete ul {
+    border: 1px solid #303030;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+div.auto_complete ul li {
+    margin: 0;
+    padding: 3px;
+    text-align: left;
+}
+
+div.auto_complete ul li.selected {
+    background-color: #d7e4ff;
+}
+
+div.auto_complete ul strong {
+    color: #009933;
+}
+
+.grouppane {
+    position: relative;
+    display: inline-block;
+    border: solid 1px #BAB7B1;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.grouppane_labelholder {
+    position: absolute;
+    top: -8px;
+    left: 5px;
+    background-color:#ece8e0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.grouppane_label {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/* Use the cf class to clear floats http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+
+/* Icons and Images */
+.icon_add, .icon_modify, .icon_delete, .icon_enable, .icon_disable, 
+.icon_search, .icon_find, .icon_cancel, .icon_refresh, .icon_close,
+.icon_print, .icon_copy, .icon_schedule, .icon_package, .icon_run, 
+.icon_view, .icon_download, .icon_upload, .icon_return,
+.icon_no_carrier, .icon_single_carrier, .icon_multi_carrier,
+.icon_loadnote_add, .icon_loadnote_reply, .icon_collapse, .icon_expand,
+.icon_attach, .icon_history, .icon_confirm, .icon_decline ,
+.icon_comments, .icon_comment_add, .icon_next, .icon_prev,
+.icon_lock, .icon_lock_open, .icon_folder_closed, .icon_folder_open,
+.icon_require, .icon_optional, .icon_optiz {
+    padding: 1px 0px 3px 20px;
+    display: inline-block;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+}
+
+.icon_add {
+    background-image: URL(/images/add.gif);
+}
+
+.icon_modify{
+    background-image: URL(/images/wrench.gif);
+}
+
+.icon_delete {
+    background-image: URL(/images/delete.gif);
+}
+
+.icon_enable {
+    background-image: URL(/images/tick.gif);
+}
+
+.icon_disable {
+    background-image: URL(/images/cross.gif);
+}
+
+.icon_search {
+    background-image: URL(/img/magnifier.gif);
+}
+
+.icon_find {
+    background-image: URL(/images/console/16x16/filefind.png);
+}
+
+.icon_cancel, .icon_close {
+    background-image: URL(/images/cancel.gif);
+}
+
+.icon_refresh {
+    background-image: URL(/images/arrow_refresh.png);
+}
+
+.icon_print {
+    background-image: URL(/images/fax.gif);
+}
+
+.icon_copy {
+    background-image: URL(/images/page_copy.gif);
+}
+
+.icon_schedule {
+    background-image: URL(/images/clock_edit.png);
+}
+
+.icon_package {
+    background-image: URL(/images/package.png);
+}
+
+.icon_run {
+    background-image: URL(/images/run.png);
+}
+
+.icon_view {
+    background-image: URL(/images/information.gif);
+}
+
+.icon_download {
+    background-image: URL(/images/download.png);
+}
+
+.icon_upload {
+    background-image: URL(/images/upload.png);
+}
+
+.icon_return {
+    background-image: URL(/images/return.png);
+}
+
+.icon_no_carrier {
+    background-image: URL(/images/no_carrier.png);
+}
+
+.icon_single_carrier {
+    background-image: URL(/images/single_carrier.png);
+}
+
+.icon_multi_carrier {
+    background-image: URL(/images/multi_carrier.png);
+}
+
+.icon_loadnote_add {
+    background-image: URL(/images/loadnote_add.png);
+}
+
+.icon_loadnote_reply {
+    background-image: URL(/images/loadnote_reply.png);
+}
+
+.icon_expand {
+    background-image: URL(/images/expand.png);
+}
+
+.icon_collapse {
+    background-image: URL(/images/collapse.png);
+}
+
+.icon_attach {
+    background-image: URL(/images/attach.png);
+}
+
+.icon_history {
+    background-image: URL(/images/history.png);
+}
+
+.icon_confirm {
+    background-image: URL(/images/thumb_up.png);
+}
+
+.icon_decline {
+    background-image: URL(/images/thumb_down.png);
+}
+
+.icon_comments {
+    background-image: URL(/images/comments.png);
+}
+
+.icon_comment_add {
+    background-image: URL(/images/comment_add.png);
+}
+
+.icon_next {
+    background-image: URL(/images/control_forward.png);
+}
+
+.icon_prev {
+    background-image: URL(/images/control_rewind.png);
+}
+
+.icon_lock {
+    background-image: URL(/images/lock.png);
+}
+
+.icon_lock_open {
+    background-image: URL(/images/lock_open.png);
+}
+
+.icon_folder_closed {
+    background-image: URL(/images/closed_folder.gif);
+}
+
+.icon_folder_open {
+    background-image: URL(/images/open_folder.gif);
+}
+
+.icon_require {
+    background-image: URL(/images/star_add.png);
+}
+
+.icon_optional {
+    background-image: URL(/images/star_delete.png);
+}
+
+.icon_optiz {
+    background-image: URL(/images/dot-chart.png);
+}
+
+.search, .search_disabled {
+    padding-top: 4px;
+    padding-right: 24px;
+    padding-bottom: 4px;    
+    padding-left: 4px;
+    background-repeat: no-repeat;
+    background-position: 93% center;
+    background-color:#CCCCCC;
+    border:1px solid #666666;
+    border-top:1px solid #EEEEEE;
+    border-left:1px solid #EEEEEE;
+    font-weight: bold;
+    font-size:13px;
+    text-decoration:none;
+    color:#202020;
+    cursor:pointer;
+}
+
+.search:hover {
+    background-color:#AAAAAA;
+    border:1px solid #444444;
+}
+
+.search {
+   background-image: URL(/img/magnifier.gif); 
+}
+
+.search_disabled {
+    background-image: URL(/images/16x16loading.gif);
+    color:#999999;
+    background-color:#DDDDDD;
+    border:1px solid #777777;
+    cursor:wait;
+}
+
+/* color style for action result*/
+.action_result_red, .action_result_green, .action_result_yellow, .action_result_brown, .action_result_black{
+    font-weight: bold;
+    font-size: 13px;
+}
+.action_result_red {
+    color: #FF0000;
+} 
+.action_result_green {
+    color: #009900;
+} 
+.action_result_yellow {
+    color: #FFCC00;
+} 
+.action_result_brown {
+    color: #FFCC00;
+}
+.action_result_black {
+    color: black;
+}
+
+/*style for standard tables*/
+table.resultsTable {
+    border: 0px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+   
+table.resultsTable > thead > tr > td {
+    white-space: nowrap;
+    padding: 2px;
+}
+
+table.resultsTable > thead > tr{
+  background: #c3cfdb;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+table.resultsTable tr > td.actions, table.resultsTable tr > td.actionbar, table.resultsTable tr > td.actionbuttons {
+    text-align: center;
+    width: 1%;
+    white-space: nowrap;
+}
+
+table.leanTable {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+
+table.leanTable * td {
+    padding: 2px;
+}
+
+.nowrap td {
+    white-space: nowrap;
+}
+     
+
+/*style for related links*/
+div.relatedLinks {
+    width: 15%;
+    margin-top: 10px;
+}
+
+div.relatedLinks div {
+    padding: 2px;
+}   
+
+/* style for standard form elements */
+select[disabled],select:disabled, input[type=text][disabled], input:disabled[type=text] {
+    background-color: #EBEBE4; 
+}
+
+.ie select[disabled], .ie select:disabled, .ie input[type=text][disabled], .ie input:disabled[type=text] {
+    background-color: white;
+}
+
+.leanform, .leansearchform {
+    
+}
+
+.leanform input, .leanform select, .leanform textarea {
+    font-size: 11px;
+    font-weight: Normal;
+}
+
+.leanform input[type=submit], .leanform input[type=cancel] {
+  font-size: 12px;
+}
+
+.formfieldinputs, .formfieldcurrencyinputs, .formfielddescriptionsselected, .formfielddescriptions, .formfieldinputsdisableable  {
+    font-size: 11px;
+    font-weight: Normal;
+}
+
+.formfieldinputserror  {
+    background-color: #FF7575;
+}
+
+.formfieldinputshighlight {
+    background-color: #FFE303;
+}
+
+.formfieldcurrencyinputs {
+  text-align: right;
+}
+
+.formfielddescriptionsselected, .formfielddescriptions, .leanbutton, input.leanbutton, button.leanbutton {
+  font-size: 12px;
+}
+
+.nonmodifiabletext {
+    color: blue;
+}

@@ -1,29 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Carrier Managment</title>
-  <meta name="description" content="Require.js Backbone.js Template site">
-  <meta name="author" content="Shane Davis">
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <link href="/css/bootstrap.css" rel="stylesheet">
-  <link href="/css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.css" />
-<!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.4/leaflet.ie.css" />
-<![endif]-->
-</head>
-	<body>
-<div id="map"></div>
-    <div class="container" id="container">
-      <div class="row" id="features"></div>
-      
-      <footer>
-      </footer>
-    </div> <!-- /container -->
+           <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> <html> <head> <title>On-Demand TMS&reg; - User Login</title>        <link rel="stylesheet" type="text/css" href="css/normalize.css?cacheKey=160b30fdf278"> <link rel="stylesheet" type="text/css" href="css/lean.css?cacheKey=160b30fdf278">    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> <script type="text/javascript"> jQuery.noConflict(); if ( typeof(jQuery.browser.msie) != "undefined" ){ jQuery('html').addClass("ie"); } </script><link rel="stylesheet" type="text/css" href="css/lean_homepage.css?cacheKey=160b30fdf278"> <style type="text/css"> #capslockdiv { display:none; margin: 10px 5px 10px 1px; } #capslock { color:black; background-color:#efff79; border:1px solid #333; margin:4px; padding:3px; font-weight:bold; width:15em; border-radius:5px; -moz-border-radius:5px; -moz-box-shadow:3px 3px 5px #333; -webkit-box-shadow:#333 5px 5px 5px; -webkit-border-radius:5px; } <!-- body { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; } --> </style> </head> <body bgcolor="#ffffff" alink="#000000" vlink="#000000">    <center> <form name="loginForm" method="post" action="/log" onsubmit="submitted(this)"> <input type="hidden" name="login_pageaction" value="login"> <input type="hidden" name="flashVersion" value=""> <!--[if lt IE 7]> <div style="background:#EEE;width:100%;margin-left:auto;margin-right:auto;padding:10px;"> <div style="border:red solid 2px;padding:10px;width:85%;margin-bottom:10px;margin-top:10px;font-family:Helvetica, Arial,sans-serif;font-size:12px;text-align:left;background:#FAFAFA"> <b>Browser Compatibility Notice - You appear to be using Internet Explorer version 6.</b><br/><br/>As of the 12.3.0 Release on November 11th 2012, IE 6 will no longer be supported and unless your browser is upgraded you will encounter compatibility issues.<br />IE 7 is the minimum version supported; we recommend you upgrade to <a href='http://www.microsoft.com/windows/ie/default.htm'>IE 8</a> or above, <a href='http://www.mozilla.com/firefox/'>Mozilla Firefox 10</a> or above, or <a href='http://www.google.com/chrome'>Google Chrome</a>.<br />If you need assistance in the upgrade process, we recommend that you contact your IT department. </div> </div> <hr /> <![endif]--> <table width='750' cellpadding="0" cellspacing="0" bgcolor="#ffffff"> <tr> <td align="right" nowrap> <table cellpadding="0" cellspacing="0" border="0"> <tr> <td>Language </td> <td> <select id="defaultLanguage" style="width:145px" name="defaultLanguage" onchange="changeLanguage(this)"> <option value="" title="/images/flags/blank.png">-- Choose --</option>   <option value="ENGLISH_US" title="/images/flags/us.png">English (US)</option>   <option value="FRENCH_CANADA" title="/images/flags/ca.png">français (CA)</option>   <option value="FRENCH_FRANCE" title="/images/flags/fr.png">français (FR)</option>   <option value="GERMAN_GERMANY" title="/images/flags/de.png">Deutsch</option>   <option value="PORTUGUESE_BRAZIL" title="/images/flags/br.png">Português (BR)</option>   <option value="SPANISH_SPAIN" title="/images/flags/es.png">Español (ES)</option>   <option value="ITALIAN_ITALY" title="/images/flags/it.png">Italiano (IT)</option>   <option value="PORTUGUESE_PORTUGAL" title="/images/flags/pt.png">Portugues (PT)</option>   <option value="POLISH_POLAND" title="/images/flags/pl.png">Polski (PL)</option>   <option value="TURKISH_TURKEY" title="/images/flags/tr.png">Türkçe (TR)</option>  </select> </td> </tr> </table> </td> </tr>   <tr> <td> <div class="header"> <div class="logo"><a href="http://www.leanlogistics.com"><img src="img/login_logo.jpeg" alt="Prod:vm-app5.prod.gr:12.2.0" /></a></div> </div> </td> </tr>    <tr> <td>&nbsp;</td> </tr> <tr style="height:100%;"> <td valign="middle"> <table width="600" border="0" align="center" cellpadding="0" cellspacing="0"> <tr> <td class="userlogin" style="text-align:left" colspan="3" nowrap> User Log-In </td> </tr> <tr> <td width="50">&nbsp;</td> <td width="120">&nbsp;</td> <td>&nbsp;</td> </tr>  <tr valign="top"> <td>&nbsp;</td> <td class="style1" align="right"><strong>Username&nbsp;</strong></td> <td class="style1" align="left" nowrap> <input type="text" name="userID" maxlength="40" size="25" tabindex="1" value="" class="style1"> <strong><a href="#message"tabindex="5"> Forgot Username? </a></strong> </td> </tr> <tr valign="top"> <td>&nbsp;</td> <td class="style1" align="right"><strong>Password&nbsp;</strong></td> <td valign="middle" class="style1" align="left" nowrap> <input type="password" name="password" maxlength="20" size="25" tabindex="2" value="" id="field2" class="style1"> <strong><a href="#message"  tabindex="6"> Forgot Password? </a></strong> <div id="capslockdiv"> <span id="capslock">Warning, Caps Lock is enabled</span> </div> </td> </tr>  <tr> <td colspan="2">&nbsp;</td> <td class="style1" align="left"> <br /> <input type="submit" name="submitbut" tabindex="4" value="    Login     " class="leanbutton" style="font-size: 14px"> </td> </tr>  <tr><td>&nbsp;</td></tr> <tr> <td>&nbsp;</td> <td colspan="2" class="style1" style="font-weight:bold" align="left">On-Demand TMS&reg; uses popup windows to display information. Please disable any popup blockers for this site. Thank you.</td> </tr> <tr> <td>&nbsp;</td> <td colspan="2" class="style1" style="font-weight:bold" align="left"></td> </tr>   <tr>
+     <td colspan="2">&nbsp;</td>
+     <td align="left">
 
-	<script data-main="js/main" datatype="text/javascript" src="js/libs/require/require.js"></script>
-  </body>
-</html>
+         <!-- Space reserved for promotional stuff, i.e. award nominations -->
+     </td>
+</tr>   </table> </td> </tr>  <tr> <td> <div class="footer"> <div class="addImage" style="width:122px; height: 13px; float:right; display:inline;"><img src="img/logo.jpg" alt=""> </div> <p> <a href="http://www.brambles.com/BXB/content/home.html" class="foot" target="_blank">A Brambles Company</a> <a href="http://www.leanlogistics.com">Home</a> <a href="http://www.leanlogistics.com/privacy_policy.html">Privacy Policy</a> <a href="http://www.leanlogistics.com/leanlogistics_contact.html">Contact Us</a> <a href="javascript:void(0)" onClick="popup('/thirdparty/tpexternaluserregistration.do?language=ENGLISH_US', 'ThirdPartyRegistration', 'center', 550, 750, 'location=0,menubar=0,resizable=1,scrollbars=1,status=0,titlebar=0,toolbar=0,hotkeys=0,');"> Third Party Registration </a> </p> </div> </td> </tr>  </table> </form>
+<script type="text/javascript" language="JavaScript">
+  <!--
+  var focusControl = document.forms["loginForm"].elements["userID"];
+
+  if (focusControl != null && focusControl.type != "hidden" && !focusControl.disabled && focusControl.style.display != "none") {
+     focusControl.focus();
+  }
+  // -->
+</script>
+ </center> </body> </html> 
